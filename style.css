@@ -1,0 +1,21 @@
+
+
+ 
+table {
+    border: 2px black solid;
+    border-collapse: separate;
+    margin: 100px 200px;
+    justify-content: center;
+    width: 50%;  
+}
+.head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.grid {
+    border: 2px blue solid;
+    width: 400px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 100px 50% 200px;
+    
+  }
