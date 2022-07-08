@@ -11,11 +11,15 @@ table {
 .head{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.grid {
-    border: 2px blue solid;
-    width: 400px;
-    height: 500px;
-    display: grid;
-    grid-template-columns: 100px 50% 200px;
-    
-  }
+.container{
+    height: 200px;
+  background-color: dodgerblue;
+  border: 1px solid lightgrey;
+  display: flex;
+  align-items: center;
+}
+.flex-item{
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
